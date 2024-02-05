@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <form action="#" id="registrationForm" onsubmit="return validateForm()">
+                <div class="row">
+                    <tr>
+                        <td><label for="firstname">First name:</label></td>
+                        <td><input type="text" name="firstname" id="firstname" required></td>
+                       
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Last name:</label></td>
+                        <td><input type="text" name="lastname" id="lastname" required></td>
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Email:</label></td>
+                        <td><input type="text" name="Email" id="Email" required></td>
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Number:</label></td>
+                        <td><input type="text" name="number" id="number" pattern="[0-9]{10}" required></td>
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Gender:</label></td>
+                        <td><input type="radio" name="gender[]" id="gender1">Male <input type="radio" name="gender[]" id="gender2" required>Female</td>
+
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Date Of Birth:</label></td>
+                        <td><input type="date" name="dob" id="dob" required></td>
+                    </tr>
+
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Adress:</label></td>
+                        <td><textarea name="adress" id="adress" cols="30" rows="10" required></textarea></td>
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">City:</label></td>
+                        <td><input type="text" name="city" id="city" required></td>
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Area Pin:</label></td>
+                        <td><input type="text" name="pin" id="pin" required></td>
+                    </tr>
+                </div>
+
+                <div class="row">
+                    <tr>
+                        <td> <label for="">State:</label> </td>
+                        <td> <input type="text" name="State" id="State" required> </td>
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td>Qualification:</td>
+                        <td><select name="qualification" id="qualification" required>
+                                <option value="select">Select Qualification</option>
+                                <option value="software">Software Engineer</option>
+                                <option value="computer">Computer Engineer</option>
+                            </select></td>
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Specialization:</label></td>
+                        <td><input type="checkbox" name="Specialization1" id="Specialization[]">Computer Science</td>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" name="Specialization12" id="Specialization[]">Information Technology</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" name="Specialization3" id="Specialization[]">Computer Architecture</td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" name="Specialization4" id="Specialization[]">Tele Communication</td>
+                    </tr>
+
+                    </tr>
+                </div>
+                <div class="row">
+                    <tr>
+                        <td><label for="">Password:</label></td>
+                        <td><input type="password" name="pass" id="pass"></td>
+                    </tr>
+                </div>
+
+                <div>
+                    <tr>
+                        <td><button type="submit">Register</button></td>
+                    </tr>
+
+                </div>
+            </form>
+        </table>
+        <!-- </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

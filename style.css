@@ -1,0 +1,51 @@
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.container .row {
+
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 400px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: none;
+}
+
+textarea {
+    height: 80px;
+    width: 400px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: none;
+}
+
+
+
+
+button {
+    height: 25px;
+    width: 100px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: blue;
+    margin-left: 55px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
